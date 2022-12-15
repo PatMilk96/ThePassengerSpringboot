@@ -23,7 +23,7 @@ public class PassengerSpringbootApplication {
 	}
 
 	@GetMapping
-	public List<Passenger> getPssengers(){
+	public List<Passenger> getPassengers(){
 		return myService.getPassengers();
 	}
 
